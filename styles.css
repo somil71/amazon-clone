@@ -5,7 +5,7 @@
 }
 
 .navbar{
-  height: 60px;
+  height: 80px;
   background-color: #0f1111;
   color: white;
   display: flex;
@@ -23,6 +23,7 @@
   background-size: cover;
   height: 50px;
   width: 100%;
+  font-size: 1.4rem;
 }
 
 .border{
@@ -43,12 +44,12 @@
 /** BOX TWO **/
 .add-first{
   color: #cccccc;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   margin-left: 15px;
 }
 
 .add-second{
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-left: 3px;
 }
 
@@ -63,32 +64,45 @@
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(255, 255, 0);
-  width: 620px;
-  height: 40px;
+  width: 70%;
+  height: 60px;
   border-radius: 4px;
 }
 
 .search-select{
-  background-color: #f3f3f3;
-  width: 50px;
+  background-color: #c5c5c5;
+  width: 70px;
   text-align: center;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border: none;
+  font-size: 1.23rem;
+}
+.search-select:focus {
+  outline: none; 
 }
 
 .search-input{
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border: none;
+}
+.search-input:hover{
+  border: none;
+}
+.search-input:active{
+  border:none;
+}
+.search-input:focus {
+  outline: none; 
 }
 
 .search-icon{
-  width: 45px;
+  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   background-color: #febd68;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -96,9 +110,9 @@
 }
 
 .nav-search:hover{
-  border: 2px solid orange
-  ;
+  border: 3px solid orange;
 }
+
 
 /**BOX FOUR**/
 span{
@@ -300,3 +314,4 @@ ul a{
 .copyright{
   padding-top: 5px;
 }
+
